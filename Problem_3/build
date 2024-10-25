@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "building the Bank Account applications"
+g++ -Wall bankApp.cpp bankAccount.cpp -o bankApp
+echo "finished"

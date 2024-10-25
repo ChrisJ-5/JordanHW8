@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "building the LED applications"
+g++ -Wall myApp.cpp derek_LED.cpp -o myApp
+echo "finished"
